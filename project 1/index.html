@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page | Blog Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      /* Dropdown CSS */
+      .dropdown-content {
+        display: none;
+        position: relative;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 2;
+        min-width: 150px;
+      }
+      .dropdown-content a {
+        display: block;
+        padding: 10px;
+        z-index: 2;
+        text-decoration: none;
+        color: rgba(11, 7, 7, 0.71);
+      }
+      .dropdown-content a:hover {
+      color: #6003037b;
+        text-transform: uppercase;
+
+        text-decoration: double;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="gg">গন্তব্য</h1>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn" onclick="toggleDropdown()">Tour
+              <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-content" id="dropdown">
+              <a href="rangamati.html">Previous</a>
+              <a href="kau.html">Upcoming</a>
+             
+            </div>
+          </li>
+          <li><a href="#">Ticket</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="update">
+      <marquee class="scroll" behavior="alternative" direction="left">একই সাথে সূর্যদয় ও সূর্যাস্ত দেখতে চলেন ঘুরে 
+        আসি সাগর কন্যা খ্যাত কুয়াকাটা থেকে।  
+        আজই টিকেট বুক করুন। <span style="color:red;" >সীমিত সময়ের জন্য ৪০% ছাড় !!!</span></marquee>
+    </div>
+    <main>
+      <section id="hero">
+        <div class="hero_content">
+          <h1>
+            Enjoy an exhilarating journey with friends and family along with
+           <span class="spg">গন্তব্য</span> 
+          </h1>
+          <h4>Are you ready to go??</h4>
+        </div>
+        <div class="hero_image">
+          <img src="images/hero.png" alt="hero" />
+        </div>
+      </section>
+      
+      <div class="h-card">
+        <div class="card_content">
+          <h2>Travel is an investment in yourself</h2>
+          <p class="pp">
+            Traveling gives people an opportunity to learn many new things
+             and explore the world. Not only that, it is through travel that
+              the traveler gets to know and understand himself. 
+              Traveling takes you out of the daily routine and exposes you to 
+              new environments and new experiences.
+          </p>
+          
+        </div>
+        <img class="tour_pic" src="images/tour.jpg" alt="laptop guy" />
+      </div>
+      <h1 class="mm" style="align-items: center;">Recent journey with গন্তব্য </h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="card_container">
+        <div class="card_wrapper">
+          <div class="v-card">
+            <div class="card_content">
+              <h2>রাঙামাটি</h2>
+              <p>
+                "Explore the beauty of Rangamati! Stunning lakes, lush hills,
+                 and rich tribal culture await. Perfect for nature lovers and
+                  adventure seekers. Visit Rangamati now!"
+              </p>
+              <div class="status">
+                <p>8 sep 2023</p>
+                <a href="rangamati.html"
+                  ><button class="read-btn">Read more</button></a
+                >
+              </div>
+            </div>
+            <img src="images/rr.jpg" alt="রাঙামাটি" />
+          </div>
+        </div>
+        <div class="card_wrapper">
+          <div class="v-card">
+            <div class="card_content">
+              <h2>Cox's Bazar</h2>
+              <p>
+                Explore the world's longest sea beach at Cox's Bazar! Relax on golden sands, enjoy stunning sunsets, and experience Bangladesh's natural beauty. Visit now!
+              </p>
+              <div class="status">
+                <p>13 Dec 2023</p>
+                <a href="cox.html"
+                  ><button class="read-btn">Read More</button></a
+                >
+              </div>
+            </div>
+            <img src="cox-pic/cp5.jpg" alt="cox" />
+          </div>
+        </div>
+        <div class="card_wrapper">
+          <div class="v-card">
+            <div class="card_content">
+              <h2>বান্দরবান</h2>
+              <p>
+                Explore the scenic hills of Bandarban! Trek, enjoy waterfalls, and immerse in nature and local culture. Perfect for adventure and relaxation!
+              </p>
+              <div class="status">
+                <p>27 jan 2024</p>
+                <a href="ban.html"
+                  ><button class="read-btn">Read More</button></a
+                >
+              </div>
+            </div>
+            <img src="bp/b.jpg"  />
+          </div>
+        </div>
+      </div>
+      <h1 class="mm" style="align-items: center;display: inline-block;">Upcoming TOUR</h1>
+      <br>
+      <br>
+      <div class="h-card">
+        <div class="card_content">
+          <h2> Kuakata</h2>
+          <p>
+           We are excited to offer you a memorable tour to Kuakata beach,
+            where you can enjoy stunning sunrises and sunsets, explore Rakhine 
+            culture, and visit nearby attractions like Fatrar Char. The tour package 
+            includes transportation, accommodation, meals, and guided tours.
+             To confirm your booking or for more details, please contact us at
+              [Contact Information]. Looking forward to having you with us for an
+               amazing trip!
+          </p>
+
+          
+          <div class="status">
+            <p>8 Feb 2022</p>
+            <a href="kau.html"><button class="read-btn">Read More</button></a>
+          </div>
+        </div>
+        <img src="kpic/k.jpg" alt="laptop guy" />
+      </div>
+    </main>
+    <hr />
+    <footer>
+      <p>গন্তব্য copyright all rights reserved</p>
+
+      <ul>
+        <li>
+          <i class="fa fa-instagram"></i>
+        </li>
+        <li>
+          <i class="fa fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin"></i>
+        </li>
+      </ul>
+    </footer>
+
+    <script>
+      function toggleDropdown() {
+  var dropdownContent = document.getElementById("dropdown");
+  if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+  } else {
+    dropdownContent.style.display = "block";
+  }
+}
+
+// Close dropdown if clicked outside
+window.onclick = function (event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.style.display === "block") {
+        openDropdown.style.display = "none";
+      }
+    }
+  }
+};
+
+    </script>
+  </body>
+</html>

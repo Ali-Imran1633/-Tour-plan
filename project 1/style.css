@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.4rem;
+}
+ul {
+  list-style: none;
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+nav {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+ 
+  
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  gap: 2.5rem;
+}
+.gg{
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(17, 217, 47);
+  font-style:oblique;
+  text-shadow: rgb(144, 142, 137) 1px 0 10px;
+}
+.gg:hover{
+ color: #000;
+
+}
+.spg{
+  
+}
+.spg:hover{
+ color:rgb(17, 217, 47);
+ font-weight: lighter;
+}
+
+nav ul li {
+  font-size: 2rem;
+}
+nav ul li:hover {
+  border-bottom: rgb(231, 28, 10) 2px solid;
+  font-weight: bold;
+  color: #bb2c08d3;
+  
+  
+}
+nav i {
+  font-size: 2.5rem;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.update{
+  width: 100%;
+  height: 80px;
+  color: rgb(18, 16, 16);
+  overflow: hidden;
+  
+   position: relative;
+  background: #fefefe;
+ 
+  border: 2px solid #4a4a4a;
+}
+marquee{
+  font-size: 20px;
+  padding-top: 20px;
+  z-index: 1;
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow: #FC0 2px 0 10px;
+  
+}
+/* Hero Section */
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_content h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  
+}
+.hero_content h4 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.pp{
+  font-size: 19px;
+}
+.tour_pic{
+  width: 400px;
+  height: 250px;
+}
+.mm{
+  margin-left: 350px;
+  border-bottom:2px solid #4a4a4a ;
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.hero_image img {
+  border-radius: 5rem;
+}
+
+/* Long Card Section */
+
+.h-card {
+  display: flex;
+  margin: 2rem 1rem;
+  box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+}
+.read-btn {
+  all: unset;
+  font-weight: 600;
+  border :1px solid transparent;
+  border-color: rgb(240, 109, 27);
+  background-color: rgb(221, 142, 13);
+  border-radius: 10%;
+  padding: 5px 10px 5px 10px;
+  
+}
+.read-btn:hover {
+  border-bottom: 1px solid #ccc;
+}
+
+/* v-cards */
+
+.v-card {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 320px;
+  box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card_container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.card_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.v-card img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer ul {
+  display: flex;
+  gap: 2rem;
+}
+footer ul li {
+  font-size: 1.8rem;
+}
+
+/* Post page */
+.banner_image img {
+  width: 100%;
+}
+.post h1 {
+  font-size: 3rem;
+}
+.post hr {
+  margin: 3rem 0;
+}
+.about-author {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
